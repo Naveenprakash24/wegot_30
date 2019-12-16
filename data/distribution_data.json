@@ -1,0 +1,27 @@
+{
+
+    "distryHeader":{
+        "verifyHeader": "Distribution"
+    },
+
+    "distryLinks":{
+        "verifyNormal": "Normal",
+        "verifyLeakage": "Leakage",
+        "verifyNUCH": "No usage/Closed House",
+        "verifyNoFlow": "No Flow",
+        "verifyComunicFail": "Communication Failure",
+        "verifyGateWayDown": "Gateway Down"
+    },
+
+    "distryColors":{
+        "normalColor": "rgba(80, 227, 194, 1)",
+        "leakageColor": "rgba(232, 64, 54, 1)",
+        "NUCHColor": "rgba(170, 203, 243, 1)",
+        "NoFlowColor": "rgba(246, 179, 120, 1)",
+        "ComunicFailColor": "rgba(255, 160, 172, 1)",
+        "GatewayDownColor": "rgba(228, 228, 228, 1)"
+    }
+
+
+
+}

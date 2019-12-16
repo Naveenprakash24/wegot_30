@@ -1,0 +1,81 @@
+[ {
+  "uid" : "d1cf774ed5abc198",
+  "name" : "Click on Profiles tab an verify profile header",
+  "time" : {
+    "start" : 1575971665595,
+    "stop" : 1575971666288,
+    "duration" : 693
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb150dac9a84244",
+  "name" : "Verify that user should be added to the user details table",
+  "time" : {
+    "start" : 1575971707065,
+    "stop" : 1575971747951,
+    "duration" : 40886
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d331a751956d9706",
+  "name" : "Click change password and navigate to the page",
+  "time" : {
+    "start" : 1576153010201,
+    "stop" : 1576153026051,
+    "duration" : 15850
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfd97fc9eac71630",
+  "name" : "Again login with new password",
+  "time" : {
+    "start" : 1576153026051,
+    "stop" : 1576153035747,
+    "duration" : 9696
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "167bc89f1b5c6590",
+  "name" : "Verify that add user popup should be opened",
+  "time" : {
+    "start" : 1575971666288,
+    "stop" : 1575971707065,
+    "duration" : 40777
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0e827202b954763",
+  "name" : "Edit username, email &phone and verify the same",
+  "time" : {
+    "start" : 1575971748351,
+    "stop" : 1575971748744,
+    "duration" : 393
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "468fb5cc51be8816",
+  "name" : "Verify that Added User details should be same",
+  "time" : {
+    "start" : 1575971747951,
+    "stop" : 1575971748351,
+    "duration" : 400
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "db5bf044975fc747",
+  "name" : "Delete added user from profile page",
+  "time" : {
+    "start" : 1575971748744,
+    "stop" : 1575971749122,
+    "duration" : 378
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

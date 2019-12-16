@@ -1,0 +1,109 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Profiles page",
+    "children" : [ {
+      "name" : "Click on Profiles tab an verify profile header",
+      "uid" : "d1cf774ed5abc198",
+      "parentUid" : "0b9137efd998b50776a3c714dae736b5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1575971665595,
+        "stop" : 1575971666288,
+        "duration" : 693
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify that add user popup should be opened",
+      "uid" : "167bc89f1b5c6590",
+      "parentUid" : "0b9137efd998b50776a3c714dae736b5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1575971666288,
+        "stop" : 1575971707065,
+        "duration" : 40777
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify that user should be added to the user details table",
+      "uid" : "bb150dac9a84244",
+      "parentUid" : "0b9137efd998b50776a3c714dae736b5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1575971707065,
+        "stop" : 1575971747951,
+        "duration" : 40886
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify that Added User details should be same",
+      "uid" : "468fb5cc51be8816",
+      "parentUid" : "0b9137efd998b50776a3c714dae736b5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1575971747951,
+        "stop" : 1575971748351,
+        "duration" : 400
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Edit username, email &phone and verify the same",
+      "uid" : "d0e827202b954763",
+      "parentUid" : "0b9137efd998b50776a3c714dae736b5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1575971748351,
+        "stop" : 1575971748744,
+        "duration" : 393
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Delete added user from profile page",
+      "uid" : "db5bf044975fc747",
+      "parentUid" : "0b9137efd998b50776a3c714dae736b5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1575971748744,
+        "stop" : 1575971749122,
+        "duration" : 378
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0b9137efd998b50776a3c714dae736b5"
+  }, {
+    "name" : "ChangePassword",
+    "children" : [ {
+      "name" : "Click change password and navigate to the page",
+      "uid" : "d331a751956d9706",
+      "parentUid" : "134694ffb4446477672fbe0264e2bd0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576153010201,
+        "stop" : 1576153026051,
+        "duration" : 15850
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Again login with new password",
+      "uid" : "cfd97fc9eac71630",
+      "parentUid" : "134694ffb4446477672fbe0264e2bd0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576153026051,
+        "stop" : 1576153035747,
+        "duration" : 9696
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "134694ffb4446477672fbe0264e2bd0a"
+  } ]
+}

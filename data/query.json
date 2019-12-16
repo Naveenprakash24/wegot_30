@@ -1,0 +1,23 @@
+{
+    "verifySiteTotal": {
+        "today": "SELECT SUM(day_total) AS day_total FROM w2_component_day_total WHERE apart_id IN (SELECT id FROM w2_apart_master WHERE block_id IN(SELECT id FROM w2_block WHERE site_id =20)) AND dt >= '2019-08-01' AND dt <= '2019-08-22'",
+        "yesterday": "SELECT sum(day_total) as day_total FROM `w2_component_day_total` where apart_id IN (select id from w2_apart_master where block_id IN(select id from w2_block where site_id =20)) AND dt >= '2019-08-21' AND dt <= '2019-08-21'",
+        "previousMonth": "SELECT sum(day_total) as day_total FROM `w2_component_day_total`where apart_id IN(select id from w2_apart_master where block_id IN(select id from w2_block where site_id =20)) AND dt >= '2019-07-01' AND dt <= '2019-07-31'"
+    },
+
+    "verifyBlockTotal": {
+        "today": "SELECT block_id,SUM(day_total) as day_total FROM `w2_component_day_total` T1 Inner Join w2_apart_master T2 ON  T1.apart_id = T2.id where apart_id IN (select id from w2_apart_master where block_id IN(select id from w2_block where site_id =20)) and  dt >= '2019-07-01' and dt <= '2019-07-16' group by block_id order by block_id ASC",
+        "yesterday": "SELECT block_id,SUM(day_total) as day_total FROM `w2_component_day_total` T1 Inner Join w2_apart_master T2 ON  T1.apart_id = T2.id where apart_id IN(select id from w2_apart_master where block_id IN(select id from w2_block where site_id =20))and  dt >= '2019-07-15' and dt <= '2019-07-15' group by block_id order by block_id ASC",
+        "perviousMonth": "SELECT block_id, SUM(day_total) AS day_total FROM `w2_component_day_total` T1 INNER JOIN w2_apart_master T2 ON T1.apart_id = T2.id WHERE apart_id IN(SELECT id FROM w2_apart_master WHERE block_id IN(SELECT id FROM w2_block WHERE site_id =20)) AND dt >= '2019-06-01' AND dt <= '2019-06-30' GROUP BY block_id ORDER BY block_id ASC"
+      
+    },
+
+    "selectApartment" : {
+        "month": "SELECT SUM(day_Total) AS day_total FROM w2_component_day_total T1 INNER JOIN we2db.w2_component_dtl T2 ON T1.comp_id = T2.component_id AND T1.apart_id=T2.apart_id WHERE T1.apart_id = '1157' AND dt >= '2019-09-01' AND dt <= '2019-09-24'",
+        "today": "SELECT SUM(day_total) AS day_total FROM w2_component_day_total T1 INNER JOIN we2db.w2_component_dtl T2 ON T1.comp_id = T2.component_id AND T1.apart_id=T2.apart_id WHERE T1.apart_id = '1157' AND dt >= '2019-09-24' AND dt <= '2019-09-24'",
+        "overallBathRoom":"select dt,cum AS cum_value,comp_id,cust_name  from w2_component_day_total T1 INNER JOIN we2db.w2_component_dtl T2 ON T1.comp_id = T2.component_id AND T1.apart_id=T2.apart_id where T1.apart_id = '1157' and dt = '2019-09-24'",
+        "overallKitchen":"select dt,cum AS cum_value,comp_id,cust_name  from w2_component_day_total T1 INNER JOIN we2db.w2_component_dtl T2 ON T1.comp_id = T2.component_id AND T1.apart_id=T2.apart_id where T1.apart_id = '1157' and dt = '2019-09-24'",
+        "overallTotal": "SELECT SUM(cum) AS cum FROM w2_component_day_total T1 INNER JOIN we2db.w2_component_dtl T2 ON T1.comp_id = T2.component_id AND T1.apart_id=T2.apart_id WHERE T1.apart_id = '1157' AND dt = '2019-09-24'"
+        
+    }
+}

@@ -1,0 +1,160 @@
+{
+  "c8b88d6a528923bbc78afd1e9bb9e556" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bb150dac9a84244",
+      "status" : "failed",
+      "statusDetails" : "Failed:  Loading takes long time to be visible\n                Wait timed out after 40431ms",
+      "time" : {
+        "start" : 1575971707065,
+        "stop" : 1575971747951,
+        "duration" : 40886
+      }
+    } ]
+  },
+  "c5480b22c63ffc6a303cc5f75ad45b29" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d1cf774ed5abc198",
+      "status" : "failed",
+      "statusDetails" : "Failed: element click intercepted: Element <span _ngcontent-c6=\"\" class=\"icon icon-profile\" mattooltip=\"USERS\" mattooltipclass=\"primary-tooltip\" aria-describedby=\"cdk-describedby-message-1\" cdk-describedby-host=\"\" ng-reflect-message=\"USERS\" ng-reflect-tooltip-class=\"primary-tooltip\" style=\"touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\"></span> is not clickable at point (30, 165). Other element would receive the click: <span _ngcontent-c6=\"\" class=\"text-align ng-star-inserted\" style=\"position: relative; top: 0px; left: 0px;\">...</span>\n                  (Session info: chrome=78.0.3904.108)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'DESKTOP-K54N3QT', ip: '192.168.1.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1575971665595,
+        "stop" : 1575971666288,
+        "duration" : 693
+      }
+    } ]
+  },
+  "52bfd277f50c9f45e417abf2c0201bc7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "468fb5cc51be8816",
+      "status" : "failed",
+      "statusDetails" : "Failed: invalid selector: Unable to locate an element with the xpath expression //mat-card-content//table//tbody//tr//td)[1] because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//mat-card-content//table//tbody//tr//td)[1]' is not a valid XPath expression.\n                  (Session info: chrome=78.0.3904.108)\n                For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'DESKTOP-K54N3QT', ip: '192.168.1.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1575971747951,
+        "stop" : 1575971748351,
+        "duration" : 400
+      }
+    } ]
+  },
+  "c0e5b1d8edb8730dbcee1821c8f1eec3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d331a751956d9706",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576153010201,
+        "stop" : 1576153026051,
+        "duration" : 15850
+      }
+    } ]
+  },
+  "5ea0f387dad7abe1b205ccc93620ba8d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cfd97fc9eac71630",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576153026051,
+        "stop" : 1576153035747,
+        "duration" : 9696
+      }
+    } ]
+  },
+  "11fe4bd73ba902d46b004343db86b477" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db5bf044975fc747",
+      "status" : "failed",
+      "statusDetails" : "Failed: invalid selector: Unable to locate an element with the xpath expression //mat-card-content//table//tbody//tr//td)[7]//button because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//mat-card-content//table//tbody//tr//td)[7]//button' is not a valid XPath expression.\n                  (Session info: chrome=78.0.3904.108)\n                For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'DESKTOP-K54N3QT', ip: '192.168.1.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1575971748744,
+        "stop" : 1575971749122,
+        "duration" : 378
+      }
+    } ]
+  },
+  "5353212d7b246438dae3eed9b41b2561" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d0e827202b954763",
+      "status" : "failed",
+      "statusDetails" : "Failed: invalid selector: Unable to locate an element with the xpath expression //mat-card-content//table//tbody//tr//td)[7]//button because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//mat-card-content//table//tbody//tr//td)[7]//button' is not a valid XPath expression.\n                  (Session info: chrome=78.0.3904.108)\n                For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'DESKTOP-K54N3QT', ip: '192.168.1.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1575971748351,
+        "stop" : 1575971748744,
+        "duration" : 393
+      }
+    } ]
+  },
+  "308b14f5818eb2a284ac04e0310c572b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "167bc89f1b5c6590",
+      "status" : "failed",
+      "statusDetails" : "Failed:  Loading takes long time to be visible\n                Wait timed out after 40360ms",
+      "time" : {
+        "start" : 1575971666288,
+        "stop" : 1575971707065,
+        "duration" : 40777
+      }
+    } ]
+  }
+}

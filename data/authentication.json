@@ -1,0 +1,11 @@
+{
+    "validUserNameAndPassword": {   
+        "validemail": "rsk@wegot.in",
+        "validpassword": "1234"
+    },
+
+    "invalidNameAndPassword": {
+        "invalidName": "sdfsdf",
+        "invalidPassword":"32131361"
+    }
+}

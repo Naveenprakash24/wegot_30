@@ -1,0 +1,22 @@
+{
+    "profileHeader":{
+        "verifyHeader": "Profile"
+    },
+    "addUser":{
+        "addBlock": "D Block",
+        "addApart": "225",
+        "addUserName": "Naveen User",
+        "addEmail": "naveenprakash@wegot.in",
+        "addPhone": "1234567890",
+        "addSqft": "1000"
+    },
+    "EditUser":{
+        "editUserName": "OFS User1",
+        "editEmail": "abc@gmail.com",
+        "editPhone": "1234567899"
+    },
+    "Changepassword":{
+        "password1" : "1234",
+        "password2" : "9876"
+    }
+}

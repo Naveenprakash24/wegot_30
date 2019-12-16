@@ -1,0 +1,18 @@
+.side-nav__brand {
+  background: url('custom-logo.svg') no-repeat left center !important;
+  text-align: left;
+}
+.side-nav__brand span {
+	display: none;
+}
+
+.side-nav__brand:after {
+	content: '.  ';
+	font-size: 1px;
+	text-align: left;
+	color: #213861;
+}
+
+.widget__column h2 {
+	display: none;
+}
